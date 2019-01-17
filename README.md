@@ -17,7 +17,7 @@ curl -i -X POST -d '{"name":"C-3PO","type":"Droid","year":1977}' http://localhos
 5.Try to insert a new data with the name of an existing robot:
 curl -i -X POST -d '{"name":"C-3PO","type":"Droid","year":1977}' http://localhost/my-rest-api/api/robots
 
-6.Update a datat with an unknown type:
+6.Update a data with an unknown type:
 curl -i -X PUT -d '{"name":"ASIMO","type":"humanoid","year":2000}'
 
 7.delete a data:
